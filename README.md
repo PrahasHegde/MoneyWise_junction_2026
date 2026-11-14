@@ -1,8 +1,8 @@
-# Talousvalmentaja – Personal Finance Coach
+# Moneywise – Personal Finance Coach
 
 *Junction × S-Pankki challenge: "chat with your own money".*
 
-Talousvalmentaja ("financial coach" in Finnish) is a mobile-first AI personal finance coach styled for S-Pankki's S-mobiili. It lets people ask questions about their own transactions in plain language and teaches them where their money really goes, using the **three baskets**.
+Moneywise is a mobile-first AI personal finance coach styled for S-Pankki's S-mobiili. It lets people ask questions about their own transactions in plain language and teaches them where their money really goes, using the **three baskets**.
 
 | Spending type (basket) | What's in it | What the coach teaches |
 |---|---|---|
@@ -13,7 +13,7 @@ Talousvalmentaja ("financial coach" in Finnish) is a mobile-first AI personal fi
 The UI uses S-Pankki's brand colours, taken from its public website stylesheet. Developers should read `DEVELOPER_GUIDE.md`.
 
 ## Demo video
-[`demo/Talousvalmentaja_demo.mp4`](demo/Talousvalmentaja_demo.mp4): a 2-minute walkthrough (1080p, narrated, with original background music).
+A narrated pitch video (under 3 minutes) is produced separately. Videos are kept out of the repository (`*.mp4` is git-ignored).
 
 ## Run it
 

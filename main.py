@@ -1,4 +1,4 @@
-"""Talousvalmentaja - AI personal finance coach. Run:  python main.py  -> http://localhost:8931
+"""Moneywise - AI personal finance coach. Run:  python main.py  -> http://localhost:8931
 (PORT / HOST env vars override; use HOST=0.0.0.0 to open it from a phone on the same Wi-Fi.)"""
 from __future__ import annotations
 
@@ -35,7 +35,7 @@ from coach.data import customers, load_all
 log = logging.getLogger("talousvalmentaja")
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 WEB = pathlib.Path(__file__).resolve().parent / "web"
-app = FastAPI(title="Talousvalmentaja – Personal Finance Coach", version="1.0.0")
+app = FastAPI(title="Moneywise – Personal Finance Coach", version="1.0.0")
 STARTED = time.time()
 
 

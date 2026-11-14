@@ -128,7 +128,7 @@
   function greet() {
     $("#chat").innerHTML = "";
     const cust = state.customers.find((c) => c.id === state.cid);
-    bubble("bot", md(`Hello ${cust.name}. I'm your personal finance coach. I can analyse your transactions and answer questions in Finnish, Swedish or English.\n\nChoose a question or type your own:`) +
+    bubble("bot", md(`Hello ${cust.name}. I'm Moneywise, your personal finance coach. I can analyse your transactions and answer questions in Finnish, Swedish or English.\n\nChoose a question or type your own:`) +
       `<div class="chips">${STARTERS.map((q) => `<button class="chip" data-ask="${esc(q)}">${esc(q)}</button>`).join("")}</div>` +
       `<div class="meta">${icon("shield", "ic sm")}${state.ai ? `AI coach (${state.provider === "gemini" ? "Gemini" : "Claude"}) · figures calculated from your data`
         : "Offline mode · set GEMINI_API_KEY for the full AI coach"}</div>`);
