@@ -1,0 +1,4 @@
+.env
+__pycache__/
+data/overrides.json
+DEVELOPER_GUIDE.md

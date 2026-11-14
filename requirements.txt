@@ -1,0 +1,9 @@
+fastapi>=0.110
+uvicorn>=0.29
+pandas>=2.1
+numpy>=1.26
+anthropic>=2.0
+google-genai>=1.0
+
+# development
+pytest>=8
