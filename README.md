@@ -1,5 +1,8 @@
 # Moneywise – Personal Finance Coach
 
+<img width="961" height="1067" alt="image" src="https://github.com/user-attachments/assets/974c07f5-cde1-45cc-bb96-dcaa1b8fc3b7" />
+
+
 *Junction × S-Pankki challenge: “chat with your own money”.*
 
 Moneywise is a mobile-first AI personal finance coach styled for S-Pankki’s S-mobiili. It lets people ask questions about their own transactions in plain language and teaches them where their money goes, using the **three baskets**.
